@@ -1,1 +1,1 @@
-# Sierpinski-Haxagon
+# Sierpinski-Hexagon
