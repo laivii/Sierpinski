@@ -1,0 +1,12 @@
+body {
+    text-align: center;
+    background-color: pink;
+}
+
+#container {
+    width: 1000px;
+    height: 1000px;
+    padding: 1%;
+    background-color: black;
+    margin: auto;
+}
