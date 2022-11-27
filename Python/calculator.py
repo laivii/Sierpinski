@@ -38,7 +38,7 @@ def calculateCoordinates():
     coordinates = [] #Formatting the list where we will save our coordinates to
 
     #Calculates x amount of points so the picture starts to form
-    for iteration in range(1, 20_000):
+    for iteration in range(1, 15_000):
         cornerPoint = whichCorner(random.randint(1,6)) #Getting the corner by random number in between 1 - 6.
         point = calculateNextOne(startingPoint,cornerPoint)
 

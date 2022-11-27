@@ -1,11 +1,13 @@
+//This function draws the picture for us,
 function formPicture(){
     const canvas = document.getElementById("myCanvas");
+    //Here we tell what kind of picture we want to for (2D, 3D etc.)
     const context = canvas.getContext("2d");
     canvas.height = canvas.width;
     
-
     const Array = calculateCoords();
 
+    //Here we specify our colors and make the dots to right places
     context.fillStyle = "white";
     for (let i = 0; i < Array.length-1; i++) {
         let x = Math.round(Array[i].x);
@@ -18,23 +20,23 @@ function formPicture(){
 }
 
 function calculateCoords(){
-    var startingPoint = [85, 286]; //set a the first point (2/3 of 1 --> 6)
-    var coordinates = []; //Formatting the list where we will save our coordinates to
+    var startingPoint = [85, 286]; //set a the first point (2/3 of 1 --> 6) makes things easier for us
+    var coordinates = [];
 
     //Calculates x amount of points so the picture starts to form
-    for(var i = 0; i < 10000000; i++){
+    for(var i = 0; i < 100000; i++){
         var corner = Math.floor(Math.random() * 6) + 1;
         var cornerPoint = whichCorner(corner); //Getting the corner by random number in between 1 - 6.
         var point = calculateNextOne(startingPoint, cornerPoint);
 
-        startingPoint = point; //Changing the value of the "startingPoint"
+        startingPoint = point;
 
         coordObj = {
             x: point[0],
             y: point[1]
         };
         
-        coordinates[i] = coordObj;  //Saving the coordinates to a list
+        coordinates[i] = coordObj;
     }
 
     return coordinates;
@@ -46,9 +48,9 @@ function calculateNextOne (point1,point2){
     var x = Math.round(point1[0] + ((point2[0] - point1[0])*0.66));
     var y = Math.round(point1[1] + ((point2[1] - point1[1])*0.66));
 
-    var new_point = [x,y]; //Saving them together as a list
+    var new_point = [x,y];
     
-    return new_point; //Returning it so it can be used later
+    return new_point;
 }
 
 //This function returns the coordinates of the hexagons corners, the corner is selected by random number generator
