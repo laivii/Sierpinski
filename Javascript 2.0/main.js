@@ -38,7 +38,7 @@ $(document).ready(function(){
                 shapesCorners = [[660,67],[0,67],[1000,67],[500,933.02]];
                 break;
             case "square":
-                shapesCorners = [[660,0],[1,1],[1,999],[999,999],[1,999]];
+                shapesCorners = [[660,0],[1,1],[1,999],[999,999],[999,1]];
                 break;
             case "pentagon":
                 shapesCorners = [[88,205],[0,534.7],[133.97,34.7],[866.3,34.7],[1000,534.7],[500,965.3]];
@@ -56,14 +56,13 @@ $(document).ready(function(){
     function calculateCoords(){
         var shape = chooseShape();
         var startingPoint = shape[0];
+        console.log(startingPoint);
         var coordinates = [];
     
         //Calculates x amount of points so the picture starts to form
-        for(var i = 0; i < 100000; i++){
+        for(var i = 0; i < 1000000; i++){
             var corner = Math.floor(Math.random() * (shape.length-1)) + 1;
-            console.log(corner);
-            var cornerPoint = shape[corner]; //Getting the corner by random number in between 1 - 6.
-            console.log(cornerPoint);
+            var cornerPoint = shape[corner];
             var point = calculateNextOne(startingPoint, cornerPoint);
     
             startingPoint = point;
