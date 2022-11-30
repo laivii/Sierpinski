@@ -25,4 +25,4 @@ First of all in this code the Hexagons corners have assigned coordinates, so the
 
 ## Here is one picture made with this code
 This picture has 10.000 points drawn.
-![alt text](https://github.com/laivii/Sierpinski-Hexagon/blob/main/Pictures/sierpinski10_000_black.png?raw=true)
+![alt text](https://github.com/laivii/Sierpinski/blob/main/Pictures/sierpinski10_000_black.png?raw=true)
