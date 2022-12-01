@@ -44,7 +44,7 @@ Here some pictures drawn with Javascript:
 <table>
     <tr>
         <td><img src="images/sierpinski_hexagon.png")></td> 
-        <td>![alt text](https://github.com/laivii/Sierpinski/blob/main/images/sierpinski_pentagon.png?raw=true)<td> 
-        <td>![alt text](https://github.com/laivii/Sierpinski/blob/main/images/sierpinski_triangle.png?raw=true)</td>
+        <td><img src="images/sierpinski_pentagon.png?raw=true"><td> 
+        <td><img src="images/sierpinski_triangle.png?raw=true"></td>
     </tr>
 </table>
