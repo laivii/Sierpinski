@@ -41,6 +41,6 @@ This picture has 10.000 points drawn. (with Python)
 ![alt text](https://github.com/laivii/Sierpinski/blob/main/Python/pictures/sierpinski10_000_black.png?raw=true)
 
 Here some pictures drawn with Javascript:
-![alt text](https://github.com/laivii/Sierpinski/blob/main/images/](https://github.com/laivii/Sierpinski/blob/main/images/sierpinski_hexagon.png?raw=true)
-![alt text](https://github.com/laivii/Sierpinski/blob/main/images/](https://github.com/laivii/Sierpinski/blob/main/images/sierpinski_pentagon.png?raw=true)
-![alt text](https://github.com/laivii/Sierpinski/blob/main/images/](https://github.com/laivii/Sierpinski/blob/main/images/sierpinski_triangle.png?raw=true)
+![alt text](https://github.com/laivii/Sierpinski/blob/main/images/sierpinski_hexagon.png?raw=true)
+![alt text](https://github.com/laivii/Sierpinski/blob/main/images/sierpinski_pentagon.png?raw=true)
+![alt text](https://github.com/laivii/Sierpinski/blob/main/images/sierpinski_triangle.png?raw=true)
