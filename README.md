@@ -36,8 +36,8 @@ Basic idea is that we choose a corner and go towards it a specific distance and 
 4. We give that list to our function that draws or forms the picture
 5. and TADA we will have a picture of that shape on our screens
 
-## Here is one picture made with this code:
-Here some pictures drawn with Javascript:
+## Here's some pictures:
+Pictures drawn with Javascript (all of these have 1 million dots):
 <table>
     <tr>
         <td><img src="images/sierpinski_hexagon.png"></td> 
@@ -46,7 +46,7 @@ Here some pictures drawn with Javascript:
     </tr>
 </table>
 
-This picture has 10.000 points drawn with Python:
+Pictures drawn with Python:
 <table>
     <tr>
         <td><img src="Python/pictures/sierpinski10_000_black.png"></td> 
