@@ -41,7 +41,7 @@ Here some pictures drawn with Javascript:
 <table>
     <tr>
         <td><img src="images/sierpinski_hexagon.png"></td> 
-        <td><img src="images/sierpinski_pentagon.png"><td> 
+        <td><img src="images/sierpinski_pentagon.png"></td> 
         <td><img src="images/sierpinski_triangle.png"></td>
     </tr>
 </table>
@@ -50,7 +50,7 @@ This picture has 10.000 points drawn with Python:
 <table>
     <tr>
         <td><img src="Python/pictures/sierpinski10_000_black.png"></td> 
-        <td><img src="Python/pictures/sierpinski15_000_black.png"><td> 
+        <td><img src="Python/pictures/sierpinski15_000_black.png"></td> 
         <td><img src="Python/pictures/sierpinski20_000_black.png"></td>
     </tr>
     <tr>
