@@ -30,7 +30,6 @@ Sierpinski shapes are formed by placing dots (here colored pixels) to random pla
 Basic idea is that we choose a corner and go towards it a specific distance and draw a dot there (for triangle the length is always 1/2 for hexagon it's 2/3). Then we continue this for a random amount of times. The more dots we draw the more clear the picture will be.
 
 ### So to the actual code and how it works:
-<<<<<<< HEAD
 1. First you choose a shape
 2. With what you chose the code will go to a function that gives us our scale, starting point and coordinates to the corners
 3. with this information we will calculate our coordinates and form a list of them
@@ -39,7 +38,7 @@ Basic idea is that we choose a corner and go towards it a specific distance and 
 
 ## Here is one picture made with this code:
 This picture has 10.000 points drawn. (with Python)
-![alt text](https://github.com/laivii/Sierpinski/blob/main/Pictures/sierpinski10_000_black.png?raw=true)
+![alt text](https://github.com/laivii/Sierpinski/blob/main/Python/pictures/sierpinski10_000_black.png?raw=true)
 
 Here some pictures drawn with Javascript:
 ![alt text](https://github.com/laivii/Sierpinski/blob/main/images/)
