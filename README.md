@@ -49,8 +49,8 @@ Here some pictures drawn with Javascript:
 This picture has 10.000 points drawn with Python:
 <table>
     <tr>
-        <td><img src="python/pictures/sierpinski10_000_black.png"></td> 
-        <td><img src="python/pictures/sierpinski15_000_black.png"><td> 
-        <td><img src="python/pictures/sierpinski20_000_black.png"></td>
+        <td><img src="Python/pictures/sierpinski10_000_black.png"></td> 
+        <td><img src="Python/pictures/sierpinski15_000_black.png"><td> 
+        <td><img src="Python/pictures/sierpinski20_000_black.png"></td>
     </tr>
 </table>
