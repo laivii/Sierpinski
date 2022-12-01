@@ -53,4 +53,9 @@ This picture has 10.000 points drawn with Python:
         <td><img src="Python/pictures/sierpinski15_000_black.png"><td> 
         <td><img src="Python/pictures/sierpinski20_000_black.png"></td>
     </tr>
+    <tr>
+       <td>10000 dots</td>
+       <td>15000 dots</td>
+       <td>20000 dots</td>
+    </tr>
 </table>
