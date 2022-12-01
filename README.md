@@ -37,14 +37,20 @@ Basic idea is that we choose a corner and go towards it a specific distance and 
 5. and TADA we will have a picture of that shape on our screens
 
 ## Here is one picture made with this code:
-This picture has 10.000 points drawn. (with Python)
-![alt text](https://github.com/laivii/Sierpinski/blob/main/Python/pictures/sierpinski10_000_black.png?raw=true)
-
 Here some pictures drawn with Javascript:
-<table style="border: none;">
+<table>
     <tr>
         <td><img src="images/sierpinski_hexagon.png"></td> 
         <td><img src="images/sierpinski_pentagon.png"><td> 
         <td><img src="images/sierpinski_triangle.png"></td>
+    </tr>
+</table>
+
+This picture has 10.000 points drawn with Python:
+<table>
+    <tr>
+        <td><img src="python/pictures/sierpinski10_000_black.png"></td> 
+        <td><img src="python/pictures/sierpinski15_000_black.png"><td> 
+        <td><img src="python/pictures/sierpinski20_000_black.png"></td>
     </tr>
 </table>
