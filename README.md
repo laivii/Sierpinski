@@ -12,7 +12,7 @@ I have made sure to store the earlier version to folder so you can still find th
 
 ## Resent Updates
 * Coding language changed from Python to JS
-    * Also with this switch we changed from creating a png to drawing on a canvas
+    * Also with this we changed from creating a png to drawing on a canvas
 * I have made changes to the function names and how they work
 * I have added some functionalities, like the dropdown for choosing shape and an information box
 * Changed the size of the picture from 1000x1000px to 500x500px
@@ -41,4 +41,6 @@ This picture has 10.000 points drawn. (with Python)
 ![alt text](https://github.com/laivii/Sierpinski/blob/main/Python/pictures/sierpinski10_000_black.png?raw=true)
 
 Here some pictures drawn with Javascript:
-![alt text](https://github.com/laivii/Sierpinski/blob/main/images/)
+![alt text](https://github.com/laivii/Sierpinski/blob/main/images/](https://github.com/laivii/Sierpinski/blob/main/images/sierpinski_hexagon.png)
+![alt text](https://github.com/laivii/Sierpinski/blob/main/images/](https://github.com/laivii/Sierpinski/blob/main/images/sierpinski_pentagon.png)
+![alt text](https://github.com/laivii/Sierpinski/blob/main/images/](https://github.com/laivii/Sierpinski/blob/main/images/sierpinski_triangle.png)
