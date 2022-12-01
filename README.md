@@ -1,4 +1,4 @@
-# Project for drawning Sierpinski-Hexagon
+# Project for drawning Sierpinski shapes
 
 ### Makers:
 * Viivi @laivii
@@ -6,23 +6,39 @@
 
 ## This is a personal project out of love for Mathematics
 
-This project was to make a code for formimg a picture of the Sierpinski Hexagon.
-It needs a lot of optimization at it's current state (8.11.22), but it forms a nice picture in a manageable time with 10_000 points drawn.
+Earlier this was a project for simply drawing Sierpinski hexagon. I have since made it more complex and a bit better version by switching language from python to Javascript and from vanilla to Jquery. 
 
-The Idea of the Sierpinski Hexagon also known as N-flake is that we take a random destination point of one of the hexagons corners and draw a point to the 2/3rds of the destination towards the end point. The picture forms always the same way eventhough the order of the points is always totally random. 
+I have made sure to store the earlier version to folder so you can still find the vanilla and Python version from this repository. Also all the pictures formed with python are stored in it's folder. The earlier README is also stored here if you are interested on reading about the first versions.
 
-Heres a link to a video on Tik Tok that explains this a lot better than me: https://vm.tiktok.com/ZMFf8RnUb/ (it was also the reason I wanted to do this project).
+## Resent Updates
+* Coding language changed from Python to JS
+    * Also with this switch we changed from creating a png to drawing on a canvas
+* I have made changes to the function names and how they work
+* I have added some functionalities, like the dropdown for choosing shape and an information box
+* Changed the size of the picture from 1000x1000px to 500x500px
 
 ## So how does it work?
+In todays version (01.12.2022), user as in you, can choose from four different shapes:
+* Triangle
+* Square
+* Pentagon
+* Hexagon
+And Javascript will present you a picture of that Sierpinski shape.
 
-First of all in this code the Hexagons corners have assigned coordinates, so they are the same all the time. We have a function where we have assigned those and from where we can call them when we need them. We have also assigned the starting point. In the real life action the starting point is the corner number one, but to make things easier for us we have assigned the starting point to be a point between corner one and six.
+Sierpinski shapes are formed by placing dots (here colored pixels) to random places with a beforehand chosen scale as in the distance of the dots is always the same, only the direction changes.
+
+Basic idea is that we choose a corner and go towards it a specific distance and draw a dot there (for triangle the length is always 1/2 for hexagon it's 2/3). Then we continue this for a random amount of times. The more dots we draw the more clear the picture will be.
 
 ### So to the actual code and how it works:
-1.  We get the number of the corner we are moving towards to by getting a random number from the generator and giving that to our function that stores or corner coordinates ==> function named "whichGon".
-2.  Next we calculate our next point with "calculateNextOne" function which we give the coordinates of the starting point and the assigned corner as parametres. These coordinates are saved to a list.
-3.  NExt we calculate all our cooordinates and forming a list of them to use with drawing the picture
-4.  Lastly we draw a picture by changin the value of the picture pixels depending on if the point is in our coordinate list or not. (if it is then the color is black, if it's not the color is white.)
+1. First you choose a shape
+2. With what you chose the code will go to a function that gives us our scale, starting point and coordinates to the corners
+3. with this information we will calculate our coordinates and form a list of them
+4. We give that list to our function that draws or forms the picture
+5. and TADA we will have a picture of that shape on our screens
 
-## Here is one picture made with this code
-This picture has 10.000 points drawn.
-![alt text](https://github.com/laivii/Sierpinski-Hexagon/blob/main/Pictures/sierpinski10_000_black.png?raw=true)
+## Here is one picture made with this code:
+This picture has 10.000 points drawn. (with Python)
+![alt text](https://github.com/laivii/Sierpinski/blob/main/Pictures/sierpinski10_000_black.png?raw=true)
+
+Here some pictures drawn with Javascript:
+![alt text](https://github.com/laivii/Sierpinski/blob/main/images/)

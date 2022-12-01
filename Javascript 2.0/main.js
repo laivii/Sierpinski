@@ -3,6 +3,10 @@ $(document).ready(function(){
         formPicture();
     });
 
+    $("#openSummary").click(function(){
+        $("#summary").slideToggle();
+    });
+
     //This function draws the picture to our canvas
     function formPicture(){
         const canvas = document.getElementById("myCanvas");
@@ -37,13 +41,13 @@ $(document).ready(function(){
                 shapesCorners = [[0.5],[250,33.5],[0,33.5],[500,33.5],[250,466.51]];
                 break;
             case "square":
-                shapesCorners = [[0.60],[660,0],[1,1],[1,999],[999,999],[999,1]];
+                shapesCorners = [[0.60],[330,0],[0,0],[0,500],[500,500],[500,0]];
                 break;
             case "pentagon":
-                shapesCorners = [[0.66],[88,205],[0,534.7],[133.97,34.7],[866.3,34.7],[1000,534.7],[500,965.3]];
+                shapesCorners = [[0.66],[44,102.5],[0,267.35],[66.985,17.35],[433.15,17.35],[500,267.35],[250,482.65]];
                 break;
             case "hexagon":
-                shapesCorners = [[0.66],[580,67],[250,67],[750,67],[1000,500],[750,933],[250,933],[0,500]];
+                shapesCorners = [[0.66],[290,33.5],[125,33.5],[375,33.5],[500,250],[375,466.5],[125,466.5],[0,250]];
                 break;
         }
 
