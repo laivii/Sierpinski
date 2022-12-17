@@ -36,15 +36,26 @@ Basic idea is that we choose a corner and go towards it a specific distance and 
 4. We give that list to our function that draws or forms the picture
 5. and TADA we will have a picture of that shape on our screens
 
-## Here is one picture made with this code:
-This picture has 10.000 points drawn. (with Python)
-![alt text](https://github.com/laivii/Sierpinski/blob/main/Python/pictures/sierpinski10_000_black.png?raw=true)
-
-Here some pictures drawn with Javascript:
+## Here's some pictures:
+Pictures drawn with Javascript (all of these have 1 million dots):
 <table>
     <tr>
-        <td><img src="images/sierpinski_hexagon.png"?raw=true)></td> 
-        <td>![alt text](https://github.com/laivii/Sierpinski/blob/main/images/sierpinski_pentagon.png?raw=true)<td> 
-        <td>![alt text](https://github.com/laivii/Sierpinski/blob/main/images/sierpinski_triangle.png?raw=true)</td>
+        <td><img src="images/sierpinski_hexagon.png"></td> 
+        <td><img src="images/sierpinski_pentagon.png"></td> 
+        <td><img src="images/sierpinski_triangle.png"></td>
+    </tr>
+</table>
+
+Pictures drawn with Python:
+<table>
+    <tr>
+        <td><img src="Python/pictures/sierpinski10_000_black.png"></td> 
+        <td><img src="Python/pictures/sierpinski15_000_black.png"></td> 
+        <td><img src="Python/pictures/sierpinski20_000_black.png"></td>
+    </tr>
+    <tr>
+       <td>10000 dots</td>
+       <td>15000 dots</td>
+       <td>20000 dots</td>
     </tr>
 </table>
